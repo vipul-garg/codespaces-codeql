@@ -2,6 +2,14 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "[CodeQL Tutorial Database source archive]",
+			"uri": "codeql-zip-archive://0-69/workspaces/codespaces-codeql/.tours/codeql-tutorial-database/src.zip"
+		},
+		{
+			"name": "[pallets/flask source archive]",
+			"uri": "codeql-zip-archive://0-113/home/codespace/.vscode-remote/data/User/workspaceStorage/-3dece704/GitHub.vscode-codeql/python/codeql_db/src.zip"
 		}
 	],
 	"settings":	{
