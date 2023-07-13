@@ -41,3 +41,19 @@ from date x, date y
 where x="10/06/2017".toDate() and y="28/09/2017".toDate()
 select x.daysTo(y)
 */
+
+//Pythagorean Triples
+/*
+from int x, int y, int z
+where x in [1..10] and y in [1..10] and z in [1..10] and x*x + y*y = z*z
+select x,y,z
+*/
+
+class SmallInt extends int{
+    SmallInt(){this in [1..10]}
+    int square(){result = this*this}
+}
+
+from SmallInt x, SmallInt y, SmallInt z
+where x.square() + y.square() = z.square()
+select x,y,z

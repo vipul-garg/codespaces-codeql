@@ -8,13 +8,5 @@
 
 import python
 
-/*
 from File f
 select f, "Hello, world!"
-*/
-/*
-from Function f
-where count(f.getAnArg())>5
-select f
-//Threw an error
-*/
