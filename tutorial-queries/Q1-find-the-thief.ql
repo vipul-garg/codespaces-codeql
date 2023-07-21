@@ -31,3 +31,5 @@ where
     /*10*/ t.getHeight()<avg(Person p | | p.getHeight()) and
     /*11*/ t=max(Person p |p.getLocation()="east"|p order by p.getAge())
 select "The thief is " + t + "!"
+
+//Thief is Hester
